@@ -15,7 +15,9 @@ namespace LemosInfotec.Ecommerce.Domain.Entidades
 
         public override void Validate()
         {
-            throw new NotImplementedException();
+            if(string.IsNullOrEmpty(Email)){
+                
+            }
         }
     }
 }
