@@ -18,7 +18,8 @@ namespace LemosInfotec.Ecommerce.Domain.Entidades
         {
             LimparMansagem();//Limpar validação
             if(!ItensPedidos.Any()){
-                MensageValidacao.Add("Item de Pedidos não pode ser vazio");
+                MensagemCritica("Item de Pedidos não pode ser vazio");
+                
             }
             
         }

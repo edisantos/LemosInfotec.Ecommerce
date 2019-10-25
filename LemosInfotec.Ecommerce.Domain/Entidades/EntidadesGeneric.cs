@@ -6,16 +6,19 @@ namespace LemosInfotec.Ecommerce.Domain.Entidades
 {
     public abstract class EntidadesGeneric
     {
-        public List<string> _mensagemValicao{get;set;}
-        public List<string> MensageValidacao{
-            get{return _mensagemValicao??(_mensagemValicao =new List<string>());}
+        public List<string> _mensagemValidacao{get;set;}
+        private List<string> mensageValidacao{
+            get{return _mensagemValidacao??(_mensagemValidacao =new List<string>());}
         }
         protected void LimparMansagem(){
-            MensageValidacao.Clear();
+            mensageValidacao.Clear();
+        }
+        protected void MensagemCritica(string mensagem){
+          mensageValidacao.Add(mensagem);
         }
         public abstract void Validate();
         protected bool EhValido{
-            get{return!MensageValidacao.Any();}
+            get{return!mensageValidacao.Any();}
         }
     }
 }

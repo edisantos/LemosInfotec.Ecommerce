@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace LemosInfotec.Ecommerce.Domain.Entidades
 {
-    public class Usuarios
+    public class Usuarios:EntidadesGeneric
     {
         public int Id { get; set; }
         public string Email { get; set; }
@@ -12,6 +12,10 @@ namespace LemosInfotec.Ecommerce.Domain.Entidades
         public string SobreNome { get; set; }
 
         public ICollection<Pedidos>Pedidos{get;set;}
-        
+
+        public override void Validate()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
