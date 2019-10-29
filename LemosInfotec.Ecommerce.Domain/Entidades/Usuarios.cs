@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-
+using LemosInfotec.
 namespace LemosInfotec.Ecommerce.Domain.Entidades
 {
     public class Usuarios:EntidadesGeneric
