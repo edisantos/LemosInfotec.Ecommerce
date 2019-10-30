@@ -7,6 +7,7 @@ namespace LemosInfotec.Ecommerce.Domain.Entidades
         public int Id { get; set; }
         public int ProdutoId { get; set; }
         public int Quantidade { get; set; }
+        
 
         public override void Validate()
         {
@@ -15,6 +16,7 @@ namespace LemosInfotec.Ecommerce.Domain.Entidades
             }
             if(Quantidade == 0){
                 MensagemCritica("Quantidade não foi informado");
+                
             }
         }
     }

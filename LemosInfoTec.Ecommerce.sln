@@ -7,11 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Ui", "1.Ui", "{9E884910-F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{A5A51DE0-F602-11E9-9D10-BBB9FFF3D0C2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Data", "3.Data", "{AB91D720-F602-11E9-9D10-BBB9FFF3D0C2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LemosInfotec.Ecommerce.Domain", "LemosInfotec.Ecommerce.Domain\LemosInfotec.Ecommerce.Domain.csproj", "{84D2107E-781C-43F3-90AB-BF6D3D507C1D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LemosInfotec.Ecommerce.Ui", "LemosInfotec.Ecommerce.Ui\LemosInfotec.Ecommerce.Ui.csproj", "{85B4864A-A2AB-4EB3-9831-54A824A15C5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Repositorios", "3.Repositorios", "{0B9D15B0-FAA6-11E9-99A4-AF85CFB0F340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LemosInfoTec.Ecommerce.Repositories", "LemosInfoTec.Ecommerce.Repositories\LemosInfoTec.Ecommerce.Repositories.csproj", "{7A28DFE9-2C49-4E82-80A8-51DF889ED832}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,8 +52,21 @@ Global
 		{85B4864A-A2AB-4EB3-9831-54A824A15C5D}.Release|x64.Build.0 = Release|Any CPU
 		{85B4864A-A2AB-4EB3-9831-54A824A15C5D}.Release|x86.ActiveCfg = Release|Any CPU
 		{85B4864A-A2AB-4EB3-9831-54A824A15C5D}.Release|x86.Build.0 = Release|Any CPU
+		{7A28DFE9-2C49-4E82-80A8-51DF889ED832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A28DFE9-2C49-4E82-80A8-51DF889ED832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A28DFE9-2C49-4E82-80A8-51DF889ED832}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7A28DFE9-2C49-4E82-80A8-51DF889ED832}.Debug|x64.Build.0 = Debug|Any CPU
+		{7A28DFE9-2C49-4E82-80A8-51DF889ED832}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7A28DFE9-2C49-4E82-80A8-51DF889ED832}.Debug|x86.Build.0 = Debug|Any CPU
+		{7A28DFE9-2C49-4E82-80A8-51DF889ED832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A28DFE9-2C49-4E82-80A8-51DF889ED832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A28DFE9-2C49-4E82-80A8-51DF889ED832}.Release|x64.ActiveCfg = Release|Any CPU
+		{7A28DFE9-2C49-4E82-80A8-51DF889ED832}.Release|x64.Build.0 = Release|Any CPU
+		{7A28DFE9-2C49-4E82-80A8-51DF889ED832}.Release|x86.ActiveCfg = Release|Any CPU
+		{7A28DFE9-2C49-4E82-80A8-51DF889ED832}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{7A28DFE9-2C49-4E82-80A8-51DF889ED832} = {0B9D15B0-FAA6-11E9-99A4-AF85CFB0F340}
 		{85B4864A-A2AB-4EB3-9831-54A824A15C5D} = {9E884910-F602-11E9-9D10-BBB9FFF3D0C2}
 		{84D2107E-781C-43F3-90AB-BF6D3D507C1D} = {A5A51DE0-F602-11E9-9D10-BBB9FFF3D0C2}
 	EndGlobalSection

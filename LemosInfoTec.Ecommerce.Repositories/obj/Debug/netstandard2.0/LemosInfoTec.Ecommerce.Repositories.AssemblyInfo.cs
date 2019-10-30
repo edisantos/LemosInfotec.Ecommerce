@@ -7,10 +7,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("LemosInfotec.Ecommerce.Domain")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("LemosInfoTec.Ecommerce.Repositories")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("LemosInfotec.Ecommerce.Domain")]
-[assembly: System.Reflection.AssemblyTitleAttribute("LemosInfotec.Ecommerce.Domain")]
+[assembly: System.Reflection.AssemblyProductAttribute("LemosInfoTec.Ecommerce.Repositories")]
+[assembly: System.Reflection.AssemblyTitleAttribute("LemosInfoTec.Ecommerce.Repositories")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
