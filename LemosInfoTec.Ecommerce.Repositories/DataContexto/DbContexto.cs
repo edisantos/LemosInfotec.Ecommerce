@@ -10,5 +10,7 @@ namespace LemosInfoTec.Ecommerce.Repositories.DataContexto
         {
             
         }
+
+        public DbSet<usuarios> Usuarios{get;set;}
     }
 }
