@@ -1,10 +1,13 @@
+using LemosInfoTec.Ecommerce.Repositories.DataContexto;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
 
 namespace LemosInfotec.Ecommerce.Ui
 {
@@ -14,8 +17,9 @@ namespace LemosInfotec.Ecommerce.Ui
         public Startup(IConfiguration configuration)
         {
             var builder = new ConfigurationBuilder();
-            builder.AddJsonFile("");
-            Configuration = configuration;
+            builder.AddJsonFile("Config.json",optional:false
+            ,reloadOnChange:true);
+            Configuration = builder.Build();
         }
 
         
@@ -23,7 +27,12 @@ namespace LemosInfotec.Ecommerce.Ui
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            //services.AddControllersWithViews();
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            var connectionString = Configuration.GetConnectionString("MySqlConnection");
+            services.AddDbContext<DbContexto>(option =>
+             option.UseMySql(connectionString,m=>
+             m.MigrationsAssembly("LemosInfoTec.Ecommerce.Repositories")));
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {

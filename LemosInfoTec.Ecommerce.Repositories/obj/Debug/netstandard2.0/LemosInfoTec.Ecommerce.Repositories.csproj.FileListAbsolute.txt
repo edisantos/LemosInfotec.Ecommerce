@@ -1,3 +1,11 @@
+/media/edilemos/Backup01/02-Projetos/03.Core/EcommerceNetCore/LemosInfoTec.Ecommerce.Repositories/bin/Debug/netstandard2.0/LemosInfoTec.Ecommerce.Repositories.deps.json
+/media/edilemos/Backup01/02-Projetos/03.Core/EcommerceNetCore/LemosInfoTec.Ecommerce.Repositories/bin/Debug/netstandard2.0/LemosInfoTec.Ecommerce.Repositories.dll
+/media/edilemos/Backup01/02-Projetos/03.Core/EcommerceNetCore/LemosInfoTec.Ecommerce.Repositories/bin/Debug/netstandard2.0/LemosInfoTec.Ecommerce.Repositories.pdb
+/media/edilemos/Backup01/02-Projetos/03.Core/EcommerceNetCore/LemosInfoTec.Ecommerce.Repositories/bin/Debug/netstandard2.0/LemosInfotec.Ecommerce.Domain.dll
+/media/edilemos/Backup01/02-Projetos/03.Core/EcommerceNetCore/LemosInfoTec.Ecommerce.Repositories/bin/Debug/netstandard2.0/LemosInfotec.Ecommerce.Domain.pdb
 /media/edilemos/Backup01/02-Projetos/03.Core/EcommerceNetCore/LemosInfoTec.Ecommerce.Repositories/obj/Debug/netstandard2.0/LemosInfoTec.Ecommerce.Repositories.csprojAssemblyReference.cache
 /media/edilemos/Backup01/02-Projetos/03.Core/EcommerceNetCore/LemosInfoTec.Ecommerce.Repositories/obj/Debug/netstandard2.0/LemosInfoTec.Ecommerce.Repositories.AssemblyInfoInputs.cache
 /media/edilemos/Backup01/02-Projetos/03.Core/EcommerceNetCore/LemosInfoTec.Ecommerce.Repositories/obj/Debug/netstandard2.0/LemosInfoTec.Ecommerce.Repositories.AssemblyInfo.cs
+/media/edilemos/Backup01/02-Projetos/03.Core/EcommerceNetCore/LemosInfoTec.Ecommerce.Repositories/obj/Debug/netstandard2.0/LemosInfoTec.Ecommerce.Repositories.csproj.CopyComplete
+/media/edilemos/Backup01/02-Projetos/03.Core/EcommerceNetCore/LemosInfoTec.Ecommerce.Repositories/obj/Debug/netstandard2.0/LemosInfoTec.Ecommerce.Repositories.dll
+/media/edilemos/Backup01/02-Projetos/03.Core/EcommerceNetCore/LemosInfoTec.Ecommerce.Repositories/obj/Debug/netstandard2.0/LemosInfoTec.Ecommerce.Repositories.pdb
