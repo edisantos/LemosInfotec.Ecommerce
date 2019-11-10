@@ -29,7 +29,7 @@ namespace LemosInfotec.Ecommerce.Ui
         {
             //services.AddControllersWithViews();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
-            var connectionString = Configuration.GetConnectionString("MySqlConnection");
+            var connectionString = Configuration.GetConnectionString("MySqlEcommerce");
             services.AddDbContext<DbContexto>(option =>
              option.UseMySql(connectionString,m=>
              m.MigrationsAssembly("LemosInfoTec.Ecommerce.Repositories")));

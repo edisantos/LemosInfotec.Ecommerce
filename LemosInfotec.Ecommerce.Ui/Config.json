@@ -1,0 +1,12 @@
+{
+    "Logging": {
+      "LogLevel": {
+        "Default": "Information",
+        "Microsoft": "Warning",
+        "Microsoft.Hosting.Lifetime": "Information"
+      }
+    },
+    "ConexaoMySql": {
+      "MySqlEcommerce": "Server=localhost;DataBase=Ecommerce;Uid=root;Pwd=info@1234"
+    }
+  }
