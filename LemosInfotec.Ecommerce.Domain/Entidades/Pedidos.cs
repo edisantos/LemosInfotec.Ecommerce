@@ -11,6 +11,8 @@ namespace LemosInfotec.Ecommerce.Domain.Entidades
         public DateTime DataPedido { get; set; }
         public int UsuarioId { get; set; }
         public int FormaPagamentoId { get; set; }
+
+        public virtual Usuarios Usuarios{get;set;}
         public virtual FormaPagamento FormaPagamento{get;set;}
         public ICollection<ItensPedidos>ItensPedidos{get;set;}
 

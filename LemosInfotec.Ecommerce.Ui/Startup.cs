@@ -31,7 +31,8 @@ namespace LemosInfotec.Ecommerce.Ui
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
             var connectionString = Configuration.GetConnectionString("MySqlEcommerce");
             services.AddDbContext<DbContexto>(option =>
-             option.UseMySql(connectionString,m=>
+            option.UseLazyLoadingProxies()
+            .UseMySql(connectionString,m=>
              m.MigrationsAssembly("LemosInfoTec.Ecommerce.Repositories")));
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>

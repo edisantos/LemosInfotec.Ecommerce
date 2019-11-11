@@ -11,6 +11,7 @@ namespace LemosInfotec.Ecommerce.Domain.Entidades
         public string Nome { get; set; }
         public string SobreNome { get; set; }
 
+//Usuário pode ter nenhum ou varios pedidos
         public ICollection<Pedidos>Pedidos{get;set;}
 
         public override void Validate()

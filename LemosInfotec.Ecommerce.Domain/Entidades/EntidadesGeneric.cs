@@ -6,7 +6,7 @@ namespace LemosInfotec.Ecommerce.Domain.Entidades
 {
     public abstract class EntidadesGeneric
     {
-        public List<string> _mensagemValidacao{get;set;}
+        private List<string> _mensagemValidacao{get;set;}
         private List<string> mensageValidacao{
             get{return _mensagemValidacao??(_mensagemValidacao =new List<string>());}
         }
